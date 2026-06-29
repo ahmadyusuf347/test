@@ -12,3 +12,20 @@
 
 
 
+@keyframes partner-slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+.partner-track {
+    animation: partner-slide 25s linear infinite;
+}
+.partner-track:hover {
+    animation-play-state: paused;
+}
